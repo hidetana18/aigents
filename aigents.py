@@ -1,4 +1,5 @@
 import requests
+import os
 
 # Replace with your OpenAI API key
 API_KEY = os.environ["OPENAI_API_KEY"]

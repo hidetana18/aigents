@@ -1,7 +1,7 @@
 import requests
 
 # Replace with your OpenAI API key
-API_KEY = 'sk-proj-9NtnoRzdxOKjP0HE443nT3BlbkFJGEfQMw9YCufvIQ6LrAAO'
+API_KEY = os.environ["OPENAI_API_KEY"]
 
 # Function to get a response from ChatGPT with conversation history
 def get_chatgpt_response(messages):

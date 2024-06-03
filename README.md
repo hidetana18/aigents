@@ -1,3 +1,9 @@
 Developing Research Codebase for AI Agents
 
-export OPENAI_API_KEY='your api key'
+## Setting Up Your API Key
+
+Set your API key with the following command:
+
+```sh
+export OPENAI_API_KEY='your_api_key'
+```
